@@ -40,3 +40,7 @@ Create travis.yml file
 git add .
 git commit -m "Add travis.yml config file"
 git push -u origin master
+
+git add .
+git commit -m "Add sudo to chown & chmod commands on travis.yml config file"
+git push -u origin master
