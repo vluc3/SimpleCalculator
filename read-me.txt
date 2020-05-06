@@ -44,3 +44,16 @@ git push -u origin master
 git add .
 git commit -m "Add sudo to chown & chmod commands on travis.yml config file"
 git push -u origin master
+
+Trigger build on Travis if does not start automatically
+
+Click passing and copy Markdown string
+  [![Build Status](https://travis-ci.org/vluc3/SimpleCalculator.svg?branch=master)](https://travis-ci.org/vluc3/SimpleCalculator)
+
+Create README.md file in project and paste string
+
+git add .
+git commit -m "Add passing Markdown badge in README.md file"
+git push -u origin master
+
+

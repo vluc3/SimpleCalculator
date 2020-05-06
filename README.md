@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/vluc3/SimpleCalculator.svg?branch=master)](https://travis-ci.org/vluc3/SimpleCalculator)
