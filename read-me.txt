@@ -35,6 +35,8 @@ git commit -m "First commit"
 git push -u origin master
 
 Create account on Travis CI
+  https://travis-ci.org/
+  
 Create travis.yml file
 
 git add .
@@ -56,4 +58,4 @@ git add .
 git commit -m "Add passing Markdown badge in README.md file"
 git push -u origin master
 
-
+README.md file appears on github and permit to click directly on build or passing Travis badges
