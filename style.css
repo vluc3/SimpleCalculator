@@ -1,0 +1,70 @@
+.body {
+  background: #455A64;
+  margin: 20px;
+}
+
+.body,
+.input {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #818F95;
+}
+
+.input,
+.result {
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  padding: 2px;
+  border: solid 2px #FFF;
+  color: #455A64;
+  background: #818F95;
+}
+
+.result {
+  width: 60%;
+  padding: 5px;
+  margin: 20px auto 0;
+}
+
+.result .title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #455A64;
+}
+
+#result {
+  text-transform: uppercase;
+}
+
+.version {
+  color: #818F95;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+button {  
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  margin-top: 20px;
+  padding: 5px;
+  border: solid 2px #FFF;
+  color: #455A64;
+  background: #818F95;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+npm init
+  test command: karma start
+
+npm i karma --save-dev
+npm i jasmine-core karma-jasmine --save-dev
+npm i karma-jasmine-matchers --save-dev
+
+npm test
+   http://localhost:9876/
+
+create and configure karma.conf.js
+
+npm i puppeteer --save-dev
+npm i karma-chrome-launcher --save-dev
+
+npm i istanbul --save-dev
+npm i karma-cli --save-dev
+npm i karma-coverage --save-dev
+
+Create new git repository  
+  SimpleCalculator
+  SimpleCalculator Jasmine continuous integration
+
+git init
+git remote add origin https://github.com/vluc3/SimpleCalculator.git
+git branch
+git status
+
+create .gitignore file
+  coverage/
+  node_modules/
+
+git add .
+git commit -m "First commit"
+git push -u origin master

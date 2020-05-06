@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple calculator</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script src="calculator.js"></script>
+    <script src="main.js"></script>
+    <script>
+      window.onload = () => {
+        load();
+      }
+    </script>
+  </head>
+  <body class="body">
+    <h1 class="title">Simple calculator</h1>    
+    <input
+      type="text" 
+      id="input" 
+      class="input" 
+      title="calculator"
+      placeholder="Enter operation"
+      value="10000+1234"
+      onchange="calculate(this.value)"
+    />
+    <div class="result">
+      <div class="title">Result</div>
+      <span id="result"></span>
+    </div>
+    <div class="button">
+      <button
+        id="clear"
+        onclick="clearInputAndResult()">
+        Clear
+      </button>
+    </div>
+    <div class="version">Version
+      <span id="version"></span>
+    </div>
+  </body>
+</html>
