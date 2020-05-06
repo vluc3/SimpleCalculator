@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "8.11"
+install:
+  - npm install
+script:
+  - npm test
+addons:
+  - chrome: stable
+before-install:
+  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+before-script:
+  - "chown root /opt/google/chrome/chrome-sandbox"
+  - "chmod 4755 /opt/google/chrome/chrome-sandbox"

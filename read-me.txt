@@ -33,3 +33,10 @@ create .gitignore file
 git add .
 git commit -m "First commit"
 git push -u origin master
+
+Create account on Travis CI
+Create travis.yml file
+
+git add .
+git commit -m "Add travis.yml config file"
+git push -u origin master
