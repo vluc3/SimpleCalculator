@@ -21,7 +21,7 @@ describe('calculator.js', () => {
         expect(calculator.constructor.name).toContain('Calc');
         expect(calculator.constructor.name).not.toContain('calc');
         expect(calculator.constructor.name).toContain('ator');
-        expect(calculator.constructor.name).toContain('calculator');
+        expect(calculator.constructor.name).toContain('Calculator');
       });
       
       it('Can be instanciated with a calculator matcher', () => {
