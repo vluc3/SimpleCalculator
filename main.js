@@ -66,7 +66,7 @@ function clearResult() {
 }
 
 function updateResult(result) {
-  let element = document.getElementBy('result');
+  let element = document.getElementById('result');
 
   if (element) {
     element.innerText = result;
